@@ -4,4 +4,4 @@
 using strings;
 
 var app = new application();
-app.string6();
+app.string3();

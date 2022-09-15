@@ -32,6 +32,13 @@ namespace strings
             Console.WriteLine(text.IndexOf("W"));
         }
 
+        public void string3()
+        {
+            string namn = "kurt andersson";
+            namn = namn.Replace('k', 'K').Replace('a', 'A');
+            Console.WriteLine(namn);
+        }
+
         public void string4()
         {
             string text = "Detta är en sträng som du s kall ändra";
